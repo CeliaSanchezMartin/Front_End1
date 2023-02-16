@@ -21,7 +21,7 @@
 .imagenes{
     
     height: 95vh;
-    width: 193vh;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
