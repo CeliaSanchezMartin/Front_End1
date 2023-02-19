@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    /*border: 3px solid pink;*/
+    display: flex;
+    flex-direction: column;
+    height: 475vh;
+    
+
+}
+
+.header{
+    background-color:black;
+    height: 8%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ .enlaces{
+    /*border: 3px solid white;*/
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+  .enlaces a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+
+  }
+
+.home{
+    /*border:3px solid red;*/
+    width: 100%;
+    height: 100vh;
+    background: url(fondo1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+ .titulos{
+    /*border: 3px solid red;*/
+    width: 70%;
+
+ }
+ .home h2{
+    -webkit-text-stroke: 1px black;
+    color: white;
+    font-size: 40px;
+    
+    text-align: left;
+
+ }
+   .home h2 span{
+    -webkit-text-stroke: 1px black;
+    color: rgb(82, 231, 161)
+   }
+ .home h1{
+    -webkit-text-stroke: 1px black;
+    color: white;
+    font-size: 70px ;
+    text-align: left;
+ }
+   .home h1 span{
+    -webkit-text-stroke: 1px black;
+    color: rgb(82, 231, 161)
+   }
+ .home h3{
+    -webkit-text-stroke: 1px black;
+    color: white;
+    font-size: 30px ;
+    text-align: left;
+ }
+
+ .impulso{
+    /*border: 3px solid rgb(255, 0, 225);*/
+    background-color: white;
+    width: 100%;
+    height: 95vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .cabeceraimp{
+    width: 100%;
+    height: 15%;
+    font-size: larger;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textosimp{
+    /*border: 3px solid red;*/
+    width:80%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+  }
+  .grupos{
+    /*border: 2px solid blueviolet;*/
+    width: 25%;
+    line-height: 200%;
+
+
+  }
+
+
+.cursos{
+    /*order: 4px solid red;*/
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    flex-direction:column;
+    
+}
+ .cabecera{
+    /*border: 4px solid pink;*/
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+   .cabecera.h1{
+    width: 30%;
+   }
+   .cabecera p{
+    width: 60%;
+   }
+
+ .encuadre{
+    /*border: 3px solid green;*/
+    height: 65%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+ }
+  .text{
+    height: 100%;
+    width:70% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+ .web{
+    background-color: white;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+
+ }
+   .webtext{
+    /*border: 3px solid red;*/
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+
+   }
+   .web p{
+    line-height: 200%;
+   }
+
+ .data{
+    background-color: white;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+ }
+   .datatext{
+    /*border: 3px solid red;*/
+    height: 80%;
+    width: 80%;
+
+   }
+  .data p{
+    line-height: 200%;
+  }
+
+
+ .boton{
+    background-color: black;
+    height: 10%;
+    width: 40%;
+    color: white;
+    text-decoration:none ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
+.cursos2{
+    background-color: white;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ .curso{
+    /*border: 2px solid green;*/
+    height: 33%;
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+ }
+
+ .curso3{
+    /*border: 2px solid green;*/
+    height: 33%;
+    width: 70%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items:center ;
+ }
+  .cursotext{
+    height: 80%;
+    width: 50%;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .cursos2 h2{
+    color: rgb(82, 231, 161)
+  }
+
+  .cursos2 img{
+    width: 40%;
+    height: 85%;
+  }
+
+.team{
+    /*border: 4px solid green;*/
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+ .profes{
+    /*border: 3px solid red;*/
+    width: 80%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+  .profe{
+    /*border: 3px solid blue;*/
+    width: 30%;
+    height: 90%;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+
+  }
+    
+    .profe a{
+        color: #0404fc;
+        text-decoration:none;
+
+    }
+  .profe img{
+    height: 55vh;
+    width: 22vw;
+    }
+    .profe p{
+        line-height: 150%;
+    }
+    .profe h2{
+        color:rgb(82, 231, 161);
+    }
+  
+    .profe3{
+      /*border: 3px solid blue;*/
+      width: 30%;
+      height: 90%;
+      
+  
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+  
+  
+    }
+    .profe3 p{
+      line-height: 150%;
+  }
+  .profe3 h2{
+      color:rgb(82, 231, 161);
+  }
+ .cabecera3{
+    /*border: 4px solid green;*/
+    width: 100%;
+    height: 15vh;
+    background:url(fondo1.jpg);
+    color: white;
+    font-size: larger;
+
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+
+}
+ .cabecera4 h1{
+
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+ }
+
+
+.contact{
+  background-color: #0404fc;
+  color: white;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+ .content{
+  /*border:2px solid pink;*/
+  height: 50vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+ }
+ .input input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  resize: none;
+ }
+ .input textarea{
+  color: white;
+  font-size: 20px;
+ }
+button {
+  --color: #0077ff;
+  font-family: inherit;
+  display: inline-block;
+  width: 16em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
+
+button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 370px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: white;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: .3s all;
+}
+
+button:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
+.footer{
+  width: 100%;
+  height: 25vh;
+  background-color: black;
+
+  display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+ }
+ .footer img{
+  height:50% ;
+  width: 20%;
+ }
+
+
+  
+
