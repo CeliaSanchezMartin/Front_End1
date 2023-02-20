@@ -105,38 +105,48 @@
             <div class="card2">
                 <a class="singup">Find your perfect Trip</a>
                 <div class="inputBox1">
-                    <input type="text" required="required">
+                    <input type="text" id="name" required="required">
                     <span class="user">Name</span>
                 </div>
     
                 <div class="inputBox">
-                    <input type="text" required="required">
+                    <input type="text" id="origin" required="required">
                     <span>Origin</span>
                 </div>
     
                 <div class="inputBox">
-                    <input type="password" required="required">
+                    <input type="text" id="destiny" required="required">
                     <span>Destiny</span>
                 </div>
                 
                 <div class="inputBox">
-                    <input type="password" required="required">
+                    <input type="text" id="passengers" required="required">
                     <span>Passengers</span>
                 </div>
 
                 <div class="inputBox">
-                    <input type="password" required="required">
+                    <input type="text" id="date" required="required">
                     <span>Date</span>
                 </div>
 
                 <div class="buttons">
-                <button class="enter"> + Info</button>
-                <button class="enter">filter</button>
+                <button class="enter" onclick="importInfo()"> + Info</button>
+                <button class="enter" onclick="">filter</button>
                 </div>
     
             </div>
-        </div>
 
+            <div class="show">
+                <div class="card">
+                    <div class="card-image"> 
+                        <img src="mallorca.jpg" alt=""></div>
+                        <div class="category"> Your Trip </div>
+                        <div id="shown"></div>
+                </div>
+            </div>
+           
+        </div>
+        
         <footer class="footer-footer">
             <a href="#">Facebook</a>
             <a href="#">Twitter</a>
@@ -144,5 +154,6 @@
         </footer>
     </div>
     </main>
+    <script src="travel.js"></script>
 </body>
 </html>
