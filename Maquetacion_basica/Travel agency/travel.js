@@ -29,6 +29,12 @@ let showInfo = " ";
 function filter(){
     let result = [];
     for(let i= 0; i < arrayInfo.length; i++){
+        if(arrayInfo[i].destiny == "Canarias" || arrayInfo[i].destiny == "canarias" || arrayInfo[i].destiny == "Galicia" || arrayInfo[i].destiny == "galicia" || arrayInfo[i].destiny == "Mallorca" || arrayInfo[i].destiny == "mallorca"){
+          
+            result += "<p>" + arrayInfo[i].name + "</p>"
+
+        }
 
     }
+    document.getElementById("filtershown").innerHTML = "<p> Los pasajeros con destino Canarias, Galicia o Mallorca son :" + result + "</p>";
 }
