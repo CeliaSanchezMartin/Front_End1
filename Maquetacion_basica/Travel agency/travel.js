@@ -36,5 +36,5 @@ function filter(){
         }
 
     }
-    document.getElementById("filtershown").innerHTML = "<p> Los pasajeros con destino Canarias, Galicia o Mallorca son :" + result + "</p>";
+    document.getElementById("filtershown").innerHTML = `<p> Los pasajeros con destino Canarias, Galicia o Mallorca son : ${ result}  </p>`;
 }
