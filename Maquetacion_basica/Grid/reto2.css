@@ -1,0 +1,29 @@
+/*Grid con fracciones*/
+/*Abuelo*/
+
+.abuelo{
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+/*Padre*/
+
+.padre{
+    width: 250px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+}
+ /*Hijos*/
+ .a{
+    text-align: center;
+    background-color: rgb(190, 247, 103);
+ }
+  .b{
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
