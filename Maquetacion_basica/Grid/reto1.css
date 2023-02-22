@@ -1,0 +1,42 @@
+/*Grid*/
+
+/*Padre*/
+
+.padre{
+    height: 300px;
+    width: 500px;
+    display:grid;
+    grid-template-columns: 200px 100px 200px;
+    grid-template-rows: 150px 150px;
+}
+
+ .a{
+    text-align: center;
+    background-color: rgb(138, 247, 162);
+    color:white
+ }
+ .b{
+    text-align: center;
+    background-color: rgb(247, 205, 138);
+    color:white
+ }
+ .c{
+    text-align: center;
+    background-color: rgb(247, 156, 138);
+    color:white
+ }
+ .d{
+    text-align: center;
+    background-color: rgb(248, 118, 118);
+    color:white
+ }
+ .e{
+    text-align: center;
+    background-color: rgb(138, 189, 247);
+    color:white
+ }
+ .f{
+    text-align: center;
+    background-color: rgb(247, 231, 126);
+    color:white
+ }
