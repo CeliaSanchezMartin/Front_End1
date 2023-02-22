@@ -1,0 +1,90 @@
+/*Areas*/
+
+/*Main*/
+.main{
+    display: grid;
+    grid-template-areas: 
+        "header header images"
+        "aside contenido contenido"
+        "footer footer footer";
+}
+
+/*Header*/
+.header{
+    height: 50px;
+    text-align: center;
+    grid-area: header;
+    color: white;
+    background-color: rgb(222, 36, 36);
+}
+.images{
+    height: 50px;
+    text-align: center;
+    grid-area: images;
+    color: white;
+    background-color: brown;
+
+}
+/*Contenido*/
+
+/*Aside*/
+.aside{
+    height: 300px;
+    grid-area: aside;
+    background-color: rgb(241, 115, 68);
+
+    display: grid;
+    grid-template-areas:  
+                "aside0"
+                "aside1"
+                "aside2";
+}
+ .aside0{
+    text-align: center;
+    color:  rgb(241, 115, 68);
+    grid-area: aside0;
+    margin: 5px;
+    background-color: white;
+ }
+ .aside2{
+    text-align: center;
+    color:  rgb(241, 115, 68);
+    grid-area: aside2;
+    margin: 5px;
+    background-color: white;
+ }
+
+/*contenido*/
+.contenido{
+    grid-area: contenido;
+    background-color: rgb(246, 83, 83);
+
+    display: grid;
+    grid-template-areas:  
+                "content"
+                "texto";
+                
+}
+.content{
+    grid-area: content;
+    margin: 5px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+.texto{
+    grid-area: texto;
+    margin: 5px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    height: 50px;
+    text-align: center;
+    grid-area: footer;
+    color: white;
+    background-color: brown;
+}
