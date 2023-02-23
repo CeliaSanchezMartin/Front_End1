@@ -22,7 +22,7 @@ $("#addCarrito").on("click", () => {
 }) */
 
 //sumar precios
-
+/*
 function sumaPrecio(){
 
     let result = 0;
@@ -37,13 +37,13 @@ function sumaPrecio(){
 
 function mainCarrito(){
 
-}
+} */
 
 
 function showCarrito(){
     let total = 0;
     for (let i = 0; i < carrito.length; i++) {
-    $("#modal").append(`<p>${carrito[i].nombre}: ${carrito[i].precio}€</p>`);
+    $("#modal").append(`<p>${carrito[i].nombre}: ${carrito[i].precio}</p>`);
         total += parseInt(carrito[i].precio);
     }
     $("#modal").append(`<h4 class="text-danger " > Total : ${total}€</h4>`);
